@@ -12,9 +12,9 @@ This is a quick demo of push notifications for the iOS platform using the PriceC
 
 5. Before leaving Apple's dev site, get your `Team ID`, which you can find under your membership option.
 
-6. The Bundle Identifer for this app is `cmuis.ReposCards` but can be found in the app's main `General` tab (same place you set the app's display name).
+6. The Bundle Identifer for this app is `net.profh.PriceCheck-PN` but can be found in the app's main `General` tab (same place you set the app's display name).
 
-7. On the `Signing & Capabilities` tab in Xcode, select the `+capability` option (far left side of the subtabs) and add in push notifications.  If you do this successfully, you will see an entitlements file in the main project (in this case, called `ReposCards.entitlements`).
+7. On the `Signing & Capabilities` tab in Xcode, select the `+capability` option (far left side of the subtabs) and add in push notifications.  If you do this successfully, you will see an entitlements file in the main project (in this case, called `PriceCheck-PN.entitlements`).
 
 8. To get the device ID, implement the method `didRegisterForRemoteNotificationsWithDeviceToken` found in the AppDelegate.  Also be sure to allow for notifications within the method `didFinishLaunchingWithOptions` -- the sample app delegate has this code.  When you build the app, the device ID will be printed out in Xcode.  Add this to your notes file and you are ready to set up your test push server.
 
