@@ -1,0 +1,8 @@
+{
+  "aps": {
+    "alert" : {
+      "title": "New Scan",
+      "body": "A new scan is available for you to see in the Saved Scans history."
+    }
+  }
+}

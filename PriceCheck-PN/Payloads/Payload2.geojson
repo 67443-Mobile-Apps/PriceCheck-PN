@@ -1,0 +1,9 @@
+{
+  "aps": {
+    "alert": {
+      "title": "New Location",
+      "body": "A new location is available for you to scan from. Go check it out now."
+    },
+    "sound": "default"
+  }
+}
